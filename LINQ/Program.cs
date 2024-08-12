@@ -54,6 +54,25 @@ namespace LINQ
 
             // LAMBDA Expression
             var r3 = list.Select(a => a);
+
+
+            // Aggregate Functions
+
+            // Min
+            int minNum = integerList.Min();
+            Console.WriteLine("min number : {0}", minNum);
+
+            // Max
+            int maxNum = integerList.Max();
+            Console.WriteLine("max number : " + maxNum);
+
+            // Sum
+            int sum = integerList.Sum();
+            Console.WriteLine("sum : " + sum);
+
+            // Count
+            int count = integerList.Count();
+            Console.WriteLine("count : " + count);
         }
     }
 }
