@@ -16,8 +16,11 @@ namespace LINQ
             //// Sorting Operations
             //SortingOP.Run();
 
-            // Partition operation
-            PartitionOp.Run();
+            //// Partition operation
+            //PartitionOp.Run();
+
+            // Convertion Operation
+            ConvertionOp.Run();
         }
     }
 }
