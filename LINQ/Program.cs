@@ -35,13 +35,22 @@ namespace LINQ
             }
 
 
-            //  creating the query using the methods provided by the Enumerable or Queryable static classes  
+            //  METHOD SYNTAX - creating the query using the methods provided by the Enumerable or Queryable static classes  
             var r1 = list.Where(a => a.Contains("C"));
 
             foreach (var i in r1)
             {
                 Console.WriteLine(i);
             }
+
+            // MIXED SYNTAX
+            List<int> integerList = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            var r2 = (from num in integerList
+                      where num > 5
+                      select num).Sum();
+
+            Console.WriteLine("sum : " + r2);
         }
     }
 }
