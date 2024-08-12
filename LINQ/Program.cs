@@ -10,11 +10,11 @@ namespace LINQ
     {
         static void Main(string[] args)
         {
-            // Query Basics
-            QueryBasics.Run();
+            //// Query Basics
+            //QueryBasics.Run();
 
-            // Sorting Operations
-            SortingOP.Run();
+            //// Sorting Operations
+            //SortingOP.Run();
 
             // Partition operation
             PartitionOp.Run();
