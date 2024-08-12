@@ -21,13 +21,24 @@ namespace LINQ
             };
 
 
-            // creating LINQ query for data source 
+            // creating LINQ query for data source - QUERY SYNTAX
             var r = from l in list
                     where l.Contains("janvi")
                     select l;
 
+            //Console.WriteLine(r);  // Enumerable<string> list that contains string having 'janvi'
+
             // executing LINQ qury using for each loop
             foreach (var i in r)
+            {
+                Console.WriteLine(i);
+            }
+
+
+            //  creating the query using the methods provided by the Enumerable or Queryable static classes  
+            var r1 = list.Where(a => a.Contains("C"));
+
+            foreach (var i in r1)
             {
                 Console.WriteLine(i);
             }
