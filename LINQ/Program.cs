@@ -36,7 +36,7 @@ namespace LINQ
 
 
             //  METHOD SYNTAX - creating the query using the methods provided by the Enumerable or Queryable static classes  
-            var r1 = list.Where(a => a.Contains("C"));
+            var r1 = list.Where(a => a.Contains("C")); // LAMBDA Expression
 
             foreach (var i in r1)
             {
@@ -51,6 +51,9 @@ namespace LINQ
                       select num).Sum();
 
             Console.WriteLine("sum : " + r2);
+
+            // LAMBDA Expression
+            var r3 = list.Select(a => a);
         }
     }
 }
