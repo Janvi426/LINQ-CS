@@ -73,6 +73,10 @@ namespace LINQ
             // Count
             int count = integerList.Count();
             Console.WriteLine("count : " + count);
+
+
+            // Sorting Operations
+            SortingOP.Run();
         }
     }
 }
