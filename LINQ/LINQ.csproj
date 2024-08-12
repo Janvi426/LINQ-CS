@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ConvertionOp.cs" />
     <Compile Include="ElementOp.cs" />
+    <Compile Include="EmployeeManagement.cs" />
     <Compile Include="PartitionOp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
