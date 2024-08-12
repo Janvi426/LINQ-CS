@@ -77,6 +77,9 @@ namespace LINQ
 
             // Sorting Operations
             SortingOP.Run();
+
+            // Partition operation
+            PartitionOp.Run();
         }
     }
 }
