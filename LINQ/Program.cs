@@ -19,8 +19,11 @@ namespace LINQ
             //// Partition operation
             //PartitionOp.Run();
 
-            // Convertion Operation
-            ConvertionOp.Run();
+            //// Convertion Operation
+            //ConvertionOp.Run();
+
+            // Element Operation
+            ElementOp.Run();
         }
     }
 }
