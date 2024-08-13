@@ -31,8 +31,11 @@ namespace LINQ
             //// Delegates
             //Delegates.Run();
 
-            // Using Delegate find data
-            UsingDelegateFindData.Run();
+            //// Using Delegate find data
+            //UsingDelegateFindData.Run();
+
+            // Joins
+            Joins.Run();
         }
     }
 }
