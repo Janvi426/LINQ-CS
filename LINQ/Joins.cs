@@ -39,10 +39,10 @@ namespace LINQ
 
             // On List of Student1 object
             IList<Student1> studentList = new List<Student1>() {
-                new Student1() { Student1ID = 1, Student1Name = "John", StandardID =1 },
-                new Student1() { Student1ID = 2, Student1Name = "Moin", StandardID =1 },
-                new Student1() { Student1ID = 3, Student1Name = "Bill", StandardID =2 },
-                new Student1() { Student1ID = 4, Student1Name = "Ram" , StandardID =2 },
+                new Student1() { Student1ID = 1, Student1Name = "John", StandardID = 1 },
+                new Student1() { Student1ID = 2, Student1Name = "Moin", StandardID = 1 },
+                new Student1() { Student1ID = 3, Student1Name = "Bill", StandardID = 2 },
+                new Student1() { Student1ID = 4, Student1Name = "Ram" , StandardID = 2 },
                 new Student1() { Student1ID = 5, Student1Name = "Ron"  }
             };
 
@@ -98,6 +98,19 @@ namespace LINQ
                 }
             }
 
+            Console.WriteLine("\n--------------------------------\n");
+
+            // ALL  
+            bool areAllStudentsInStd1 = studentList.All(s => s.StandardID == 1);
+            Console.WriteLine(areAllStudentsInStd1);
+
+            Console.WriteLine("\n--------------------------------\n");
+
+            // Any
+            bool areAnyStudentsInStd1 = studentList.Any(s => s.StandardID == 1);
+            Console.WriteLine(areAnyStudentsInStd1);
+
+            Console.WriteLine("\n--------------------------------\n");
         }
     }
 
