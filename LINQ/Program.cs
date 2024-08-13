@@ -25,8 +25,14 @@ namespace LINQ
             //// Element Operation
             //ElementOp.Run();
 
-            // Task 
-            EmployeeManagement.Run();
+            //// Task 
+            //EmployeeManagement.Run();
+
+            //// Delegates
+            //Delegates.Run();
+
+            // Using Delegate find data
+            UsingDelegateFindData.Run();
         }
     }
 }

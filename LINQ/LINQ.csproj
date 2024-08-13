@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConvertionOp.cs" />
+    <Compile Include="Delegates.cs" />
     <Compile Include="ElementOp.cs" />
     <Compile Include="EmployeeManagement.cs" />
     <Compile Include="PartitionOp.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryBasics.cs" />
     <Compile Include="SortingOP.cs" />
+    <Compile Include="UsingDelegateFindData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
