@@ -21,7 +21,7 @@ namespace LINQ
             // FirstOrDefault()
             string[] emt = { };
 
-            string val = emt.FirstOrDefault(); // null if int[] then 0 default
+            string val = emt.FirstOrDefault(); // null, if int[] then 0 default
             Console.WriteLine("Element from the empty list: {0}", val); // null
 
             Console.WriteLine("---------------------------------");
@@ -32,11 +32,11 @@ namespace LINQ
 
             Console.WriteLine("Element last : " + last);
 
-            // FirstOrDefault()
+            // LastOrDefault()
             int[] emt1 = { };
 
-            int lastVal = emt1.LastOrDefault(); // null if int[] then 0 default
-            Console.WriteLine("Element from the empty list: {0}", lastVal); // null
+            int lastVal = emt1.LastOrDefault(); // 0, if string[] then null default
+            Console.WriteLine("Element from the empty list: {0}", lastVal); // 0
 
             Console.WriteLine("---------------------------------");
 
